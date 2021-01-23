@@ -1,6 +1,6 @@
 {
   "name": "lolire",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": "lib/lolire.js",
   "license": "MIT",
   "scripts": {
@@ -18,5 +18,19 @@
   "devDependencies": {
     "@types/node": "^13.13.2",
     "chai": "^4.2.0"
-  }
+  },
+  "description": "<p align=\"center\"> \t<a href=\"https://www.npmjs.com/package/lolire\"> \t\t<img src=\"https://img.shields.io/npm/v/lolire.svg?style=flat-square\" alt=\"NPM version\"> \t</a> \t<a href=\"https://travis-ci.org/u14-team/lolire\"> \t\t<img src=\"https://img.shields.io/travis/u14-team/lolire.svg?style=flat-square\" alt=\"Build Status\"> \t</a> \t<a href=\"https://www.npmjs.com/package/lolire\"> \t\t<img src=\"https://img.shields.io/npm/dt/lolire.svg?style=flat-square\" alt=\"NPM downloads\"> \t</a> </p>",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u14-team/lolire.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/u14-team/lolire/issues"
+  },
+  "homepage": "https://github.com/u14-team/lolire#readme"
 }
