@@ -4,7 +4,8 @@
   "main": "lib/lolire.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json",
+    "release-it": "yarn version && git push --follow-tags"
   },
   "dependencies": {
     "@koa/cors": "^3.0.0",
