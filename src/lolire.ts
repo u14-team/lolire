@@ -5,7 +5,7 @@ import { Cmd } from './cmd';
 import { Server } from './server';
 import { Db } from './db';
 import { AccountManager } from './accountManager';
-import * as updateNotifier from 'update-notifier';
+// import * as updateNotifier from 'update-notifier';
 
 export class Lolire {
   logger = new Logger();
@@ -46,7 +46,7 @@ export class Lolire {
 
   async start() {
     await this.server.start();
-    if (this.options.pkg) {
+    /*if (this.options.pkg) {
       const notifier = updateNotifier({ pkg: this.options.pkg, updateCheckInterval: 0 });
       console.log(notifier)
       if (!notifier.update) {
@@ -55,7 +55,7 @@ export class Lolire {
 
       this.info(`New version available ${notifier.update.latest} (${notifier.update.current})`);
       this.info(`Use 'git pull' to update`);
-    }
+    }*/
   }
 
   async shutdown(code = 0) {
