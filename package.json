@@ -1,6 +1,6 @@
 {
   "name": "lolire",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "lib/lolire.js",
   "license": "MIT",
   "scripts": {
